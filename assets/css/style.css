@@ -112,3 +112,25 @@ main .content .grupo-botoes button:last-child{
 
 /* END MAIN */
 
+/* CLIENTES */
+
+.clientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clientes div{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.clientes div img{
+    width: 100%;
+}
+
+
+/* END CLIENTES */
+
