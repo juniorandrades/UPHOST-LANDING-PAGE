@@ -134,3 +134,54 @@ main .content .grupo-botoes button:last-child{
 
 /* END CLIENTES */
 
+/* RESPONSIVIDADE */
+
+@media (max-width: 850px) {
+    
+    main .img{
+        display: none;
+    }
+
+    main .content{
+        width: 100%;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .clientes{
+        margin-top: 70px;
+    }
+    .clientes div{
+        width: 50%;
+    }
+
+    .clientes div img{
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 430px) {
+    
+    main .content h1{
+        font-size: 2.5rem;
+    }
+    main .content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 330px) {
+    nav ul li a{
+        font-size: 16px;
+    }
+    main .content h1{
+        font-size: 2.5rem;
+    }
+
+    .clientes div img {
+        width: 100%;
+    }
+}
+
+/* END RESPONSIVIDADE */
